@@ -45,10 +45,6 @@ for m in metrics:
 For some Metrics it is possible to specify the indices of classes to ignore (e.g. Background) by 
 passing `ignore_ids` parameter to the constructor.
 
-## Authors
-
-Yasser Souri: [@yassersouri](https://github.com/yassersouri)  
-Zijia Lu: [@ZijiaLewisLu](https://github.com/ZijiaLewisLu)
 
 ## Acknowledgement
 
