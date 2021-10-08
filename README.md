@@ -6,7 +6,7 @@ If you have a bug-fix/improvement or if you want to add a new features please se
 
 ## Installation
 
-The `actseg` library is available on PyPI.
+The `actseg` library is available on [PyPI](https://pypi.org/project/actseg/).
 
 ```shell
 pip install actseg
