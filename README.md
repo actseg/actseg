@@ -1,3 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/actseg.svg)](https://pypi.org/project/actseg/)
+
 # Reference Action Segmentation Evaluation Code
 
 This repository contains the reference code for action segmentation evaluation.
