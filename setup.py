@@ -22,7 +22,7 @@ setup(
     author="Yasser Souri",
     author_email="yassersouri@gmail.com",
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "License :: OSI Approved :: MIT License",
@@ -30,7 +30,6 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
-        "Programming Language :: Python :: 3.10",
     ],
     keywords="action segmentation, video understanding",
     package_dir={"": "src"},
@@ -38,7 +37,7 @@ setup(
     python_requires=">=3.7, <4",
     install_requires=["numpy"],
     extras_require={
-        "dev": ["pytest", "check-manifest"],
+        "dev": ["pytest", "check-manifest", "tox"],
     },
     project_urls={
         "Bug Reports": "https://github.com/actseg/actseg/issues",

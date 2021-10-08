@@ -1,9 +1,9 @@
 init:
-	pip install -e .[socks]
+	pip install -e .[dev]
 	pip install -r requirements-dev.txt
 
 test:
-	pytest
+	tox
 
 build:
 	python setup.py bdist_wheel sdist
@@ -13,5 +13,5 @@ clean:
 	rm -r dist/
 
 publish:
-	pip install twine>=3.4.2
+	pip install twine
 	twine upload dist/*
