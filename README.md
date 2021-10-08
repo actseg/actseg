@@ -4,6 +4,21 @@ This repository contains the reference code for action segmentation evaluation.
 
 If you have a bug-fix/improvement or if you want to add a new features please send a pull request or open an issue.
 
+## Installation
+
+The `actseg` library is available on PyPI.
+
+```shell
+pip install actseg
+```
+
+## Development
+
+```shell
+make init
+make test
+```
+
 ## Example Usage
 
 All the metrics have the same api.
@@ -48,4 +63,4 @@ passing `ignore_ids` parameter to the constructor.
 
 ## Acknowledgement
 
-Please see `actseg/external` for external sources used in this project.
+Please see `src/actseg/external` for external sources used in this project.
